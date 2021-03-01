@@ -131,7 +131,7 @@ automl_config = AutoMLConfig(
 ```
 The AutoML experiment ended after 30 minutes as it reached the stopping criteria (`experiment_timeout_minutes=30`).
 
-During this time 28 iterations were performed on various models. The best model was `VotingEnsemble` with accuracy `0.9176`:
+During this time AutoML performed 28 iterations evaluating a set of diffrent models. The best performing model was `VotingEnsemble` with accuracy `0.9176`:
 ```
 ITERATION   PIPELINE                                       DURATION      METRIC      BEST
        27   VotingEnsemble                                 0:01:06       0.9176    0.9176
